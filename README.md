@@ -2,6 +2,8 @@
 
 HueX is a modern color picker application that helps designers and developers select colors and generate code snippets for their projects.
 
+Go To: https://huex-theta.vercel.app/
+
 ## Features
 
 - **Interactive Color Picker**: Select colors using an intuitive interface
