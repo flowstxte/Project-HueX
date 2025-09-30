@@ -1,54 +1,71 @@
-# HueX - Color Picker and Code Generator
 
-HueX is a modern color picker application that helps designers and developers select colors and generate code snippets for their projects.
+# HueX – Color Picker & Code Generator
 
-Go To: https://huex-theta.vercel.app/
+HueX is a modern color picker app that helps designers & developers pick colors and generate ready-to-use code snippets.  
+
+**Live App**: [HueX on Vercel](https://huex-theta.vercel.app/)
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/flowstxte/Project-HueX/main/ss1.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/flowstxte/Project-HueX/main/ss2.png" width="45%" />
+</p>
+
+---
 
 ## Features
+- **Interactive Color Picker** – intuitive interface for precise selection  
+- **Color Formats** – HEX, RGB, HSL, HSV  
+- **Code Generator** – CSS, Tailwind & more  
+- **Dark/Light Mode** – theme toggle support  
 
-- **Interactive Color Picker**: Select colors using an intuitive interface
-- **Color Value Display**: View color values in HEX, RGB, HSL and HSV formats
-- **Code Snippet Generator**: Generate code snippets for CSS, Tailwind, and other frameworks
-- **Dark/Light Mode**: Supports both dark and light themes
+---
 
 ## Getting Started
-
-1. **Installation**
-
 ```bash
+# Install dependencies
 npm install
-```
 
-2. **Development**
-
-```bash
+# Run development server
 npm run dev
-```
+# → Open http://localhost:9002
 
-This will start the development server on port 9002. Open [http://localhost:9002](http://localhost:9002) in your browser to view the application.
-
-3. **Build**
-
-```bash
+# Build for production
 npm run build
-```
+````
+
+---
 
 ## Project Structure
 
-- `src/app/page.tsx` - Main application page
-- `src/components/` - React components
-  - `HueXApp.tsx` - Main application component
-  - `ColorPicker.tsx` - Color selection component
-  - `ColorValueDisplay.tsx` - Displays color values in different formats
-  - `CodeSnippetGenerator.tsx` - Generates code snippets for selected colors
+* `src/app/page.tsx` → Main app page
+* `src/components/`
 
-## Technologies
+  * `HueXApp.tsx` → Root component
+  * `ColorPicker.tsx` → Picker UI
+  * `ColorValueDisplay.tsx` → Shows HEX/RGB/HSL/HSV
+  * `CodeSnippetGenerator.tsx` → Generates snippets
 
-- Next.js
-- React
-- Tailwind CSS
-- TypeScript
+---
+
+## Built With
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,ts" />
+</p>
+
+---
 
 ## License
 
-This project is licensed under the MIT License.
+MIT License
+
+---
+
+## Credits
+
+**flowstxte**
+[GitHub](https://github.com/flowstxte)
