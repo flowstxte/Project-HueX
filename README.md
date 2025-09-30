@@ -7,7 +7,7 @@ Go To: https://huex-theta.vercel.app/
 ## Features
 
 - **Interactive Color Picker**: Select colors using an intuitive interface
-- **Color Value Display**: View color values in HEX, RGB, and HSL formats
+- **Color Value Display**: View color values in HEX, RGB, HSL and HSV formats
 - **Code Snippet Generator**: Generate code snippets for CSS, Tailwind, and other frameworks
 - **Dark/Light Mode**: Supports both dark and light themes
 
